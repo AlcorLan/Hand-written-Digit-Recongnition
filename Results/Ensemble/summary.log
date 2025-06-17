@@ -1,0 +1,51 @@
+
+Loading original MNIST Test Data for ensemble...
+
+Loading KNN model...
+KNN predictions obtained. Accuracy: 97.46%
+
+Loading SVM model...
+SVM predictions obtained. Accuracy: 97.78%
+
+Loading RFC model...
+RFC predictions obtained. Accuracy: 98.20%
+
+Loading CNN model...
+
+ 1/30 [>.............................] - ETA: 5s
+ 5/30 [====>.........................] - ETA: 0s
+ 9/30 [========>.....................] - ETA: 0s
+13/30 [============>.................] - ETA: 0s
+17/30 [================>.............] - ETA: 0s
+21/30 [====================>.........] - ETA: 0s
+25/30 [========================>.....] - ETA: 0s
+29/30 [============================>.] - ETA: 0s
+30/30 [==============================] - 1s 13ms/step
+CNN predictions obtained. Accuracy: 99.89%
+
+Performing weighted voting...
+Weighted voting complete.
+
+Evaluating Ensemble Model...
+
+Ensemble Model Accuracy: 99.26%
+
+--- Model Accuracy Summary ---
+KNN: 97.46%
+SVM: 97.78%
+RFC: 98.20%
+CNN: 99.89%
+Ensemble: 99.26%
+
+Creating Confusion Matrix for Ensemble...
+Ensemble Confusion matrix plot saved to E:\Documents\Project\PycharmProjects\dataMining\Handwritten-Digit-Recognition-using-Deep-Learning\Results\Ensemble\Ensemble_Confusion_Matrix.png
+
+Visualizing examples corrected by voting with detailed model predictions...
+
+Plotting model accuracies comparison...
+Model accuracies comparison plot saved to E:\Documents\Project\PycharmProjects\dataMining\Handwritten-Digit-Recognition-using-Deep-Learning\Results\Ensemble\Model_Accuracies_Comparison.png
+99       946
+weighted avg       0.99      0.99      0.99       946
+
+2025-06-10 12:37:32,505 - INFO - Prediction examples plot saved to E:\Documents\Project\PycharmProjects\dataMining\Handwritten-Digit-Recognition-using-Deep-Learning\Results\Ensemble\Ensemble_Prediction_Examples.png
+2025-06-10 12:37:33,301 - INFO - Voting corrected examples plot saved to E:\Documents\Project\PycharmProjects\dataMining\Handwritten-Digit-Recognition-using-Deep-Learning\Results\Ensemble\Voting_Corrected_Details_Examples.png

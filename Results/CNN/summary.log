@@ -1,0 +1,53 @@
+2025-06-10 12:36:19,922 - INFO - 
+--- Running Convolutional Neural Network Model ---
+2025-06-10 12:36:20,059 - INFO - 
+Loading MNIST Dataset...
+2025-06-10 12:36:22,460 - INFO - 
+CNN Model Parameters:
+2025-06-10 12:36:22,460 - INFO -   Input Shape: (Width=28, Height=28, Depth=1)
+2025-06-10 12:36:22,460 - INFO -   Total Classes: 10
+2025-06-10 12:36:22,461 - INFO -   Optimizer: SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
+2025-06-10 12:36:22,461 - INFO - 
+ Compiling model...
+2025-06-10 12:36:22,632 - INFO - 
+Training the Model...
+2025-06-10 12:36:52,062 - INFO - 
+Evaluating Accuracy and Loss Function...
+2025-06-10 12:36:52,360 - INFO - Accuracy of Model: 96.53%
+2025-06-10 12:36:52,665 - INFO - 
+Creating Confusion Matrix for Test Data...
+2025-06-10 12:36:52,667 - INFO - Confusion Matrix:
+[[27  0  0  0  0  0  1  0  0  0]
+ [ 0 23  0  0  0  0  0  0  0  1]
+ [ 0  0 38  0  0  0  0  0  0  0]
+ [ 0  0  0 32  0  1  0  0  1  1]
+ [ 0  0  0  0 18  0  0  0  0  1]
+ [ 0  0  0  0  0 33  0  0  0  0]
+ [ 0  1  0  0  0  0 26  0  0  0]
+ [ 0  0  0  0  0  0  0 35  0  0]
+ [ 0  1  0  0  0  0  0  0 23  1]
+ [ 0  1  0  0  0  0  0  0  0 23]]
+2025-06-10 12:36:53,004 - INFO - CNN Confusion matrix plot saved to E:\Documents\Project\PycharmProjects\dataMining\Handwritten-Digit-Recognition-using-Deep-Learning\Results\CNN\CNN_Confusion_Matrix.png
+2025-06-10 12:36:53,012 - INFO - 
+CNN Test Data Classification Report:
+
+2025-06-10 12:36:53,021 - INFO -               precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98        28
+           1       0.88      0.96      0.92        24
+           2       1.00      1.00      1.00        38
+           3       1.00      0.91      0.96        35
+           4       1.00      0.95      0.97        19
+           5       0.97      1.00      0.99        33
+           6       0.96      0.96      0.96        27
+           7       1.00      1.00      1.00        35
+           8       0.96      0.92      0.94        25
+           9       0.85      0.96      0.90        24
+
+    accuracy                           0.97       288
+   macro avg       0.96      0.96      0.96       288
+weighted avg       0.97      0.97      0.97       288
+
+2025-06-10 12:36:53,552 - INFO - CNN Loss and Accuracy curves plot saved to E:\Documents\Project\PycharmProjects\dataMining\Handwritten-Digit-Recognition-using-Deep-Learning\Results\CNN\CNN_Loss_Accuracy_Curves.png
+2025-06-10 12:36:53,567 - INFO - Saving weights to file...
+2025-06-10 12:36:54,276 - INFO - Prediction examples plot saved to E:\Documents\Project\PycharmProjects\dataMining\Handwritten-Digit-Recognition-using-Deep-Learning\Results\CNN\CNN_Prediction_Examples.png

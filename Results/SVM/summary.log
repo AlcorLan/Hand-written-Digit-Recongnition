@@ -1,0 +1,67 @@
+2025-06-10 12:30:26,100 - INFO - 
+SVM Classifier Parameters: C=1, kernel='linear'
+
+Loading MNIST Data...
+
+Preparing Classifier Training and Validation Data...
+
+Pickling the Classifier for Future Use...
+
+Calculating Accuracy of trained Classifier...
+
+Making Predictions on Validation Data...
+
+Calculating Accuracy of Predictions...
+
+SVM Trained Classifier Confidence:  0.9845360824742269
+
+Predicted Values:  [2 3 7 4 5 6 1 2 2 2 0 4 8 2 8 1 7 9 5 2 0 4 0 5 3 6 4 3 9 5 5 3 9 2 9 7 0
+ 8 1 3 7 4 9 0 8 8 3 2 5 4 5 1 0 3 8 4 9 4 2 8 7 4 1 8 9 6 1 8 8 1 3 2 7 6
+ 1 9 7 9 4 7 0 4 6 3 5 6 0 2 6 3 1 0 9 9 0 0 3 2 2 8 4 9 4 1 2 6 8 6 2 2 4
+ 6 1 9 6 4 0 6 4 2 0 2 6 2 7 3 0 3 4 5 2 7 6 3 6 2 5 3 4 6 5 0 7 4 7 4 4 7
+ 3 8 0 6 4 4 4 1 6 8 0 3 6 7 7 0 6 6 4 0 6 4 6 2 2 3 9 7 4 0 1 7 7 3 5 7 1
+ 9 5 8 3 3 2 5 3 6]
+
+Accuracy of Classifier on Validation Image Data:  0.9845360824742269
+Confusion matrix plot saved to E:\Documents\Project\PycharmProjects\dataMining\Handwritten-Digit-Recognition-using-Deep-Learning\Results\SVM\SVM_Confusion_Matrices.png
+
+SVM Validation Data Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98        21
+           1       1.00      0.93      0.97        15
+           2       0.96      1.00      0.98        23
+           3       1.00      1.00      1.00        22
+           4       0.96      1.00      0.98        26
+           5       1.00      0.93      0.97        15
+           6       1.00      1.00      1.00        24
+           7       1.00      1.00      1.00        19
+           8       1.00      1.00      1.00        15
+           9       0.93      1.00      0.97        14
+
+    accuracy                           0.98       194
+   macro avg       0.99      0.98      0.98       194
+weighted avg       0.99      0.98      0.98       194
+
+
+SVM Test Data Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99        88
+           1       0.99      0.98      0.98        98
+           2       0.92      1.00      0.96        85
+           3       0.96      0.96      0.96        82
+           4       0.97      0.99      0.98       113
+           5       0.99      0.96      0.98       112
+           6       1.00      1.00      1.00        87
+           7       1.00      0.99      0.99        97
+           8       0.98      0.93      0.95        96
+           9       0.96      0.98      0.97        88
+
+    accuracy                           0.98       946
+   macro avg       0.98      0.98      0.98       946
+weighted avg       0.98      0.98      0.98       946
+
+Prediction examples plot saved to E:\Documents\Project\PycharmProjects\dataMining\Handwritten-Digit-Recognition-using-Deep-Learning\Results\SVM\SVM_Prediction_Examples.png
